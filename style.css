@@ -1,0 +1,160 @@
+body, html
+{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51,51,51,0.4);
+    top: 0;
+    width: 100%;
+}
+
+li
+{
+    float: right;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Courier";
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px; 
+}
+
+li a:hover:not(.active)
+{
+    background-color: #111;
+}
+
+td
+{
+	text-align: center;
+}
+
+@font-face
+{
+    font-family: RockerFont;
+    src: url(NewRocker-Regular.otf);
+}
+
+#footer
+{
+    color: white;
+    font-weight: bold;
+	font-size: 24px;
+}
+
+.bg
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./homepage/pad.jpg); 
+  	width: 100%;
+ 	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+.active
+{
+    background-color: #2a6cc5;
+}
+
+#image
+{
+	margin-left: 2%;
+	vertical-align: middle;
+}
+
+#quote
+{
+	margin-left: 7%;
+	font-size: 45px;
+	color: white;
+	font-family: RockerFont;
+}
+
+#video
+{
+    margin-left: 22%;
+    margin-bottom: -19%;
+}
+
+#button
+{
+    margin-left: 40%;
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#button2
+{
+    margin-left: 4%;
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.container 
+{
+  margin: 5% 5%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#buyButton
+{
+	margin-bottom: 10%;
+    background-color: #3593ea; 
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contacts
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: Helvetica;
+}
+
+.social
+{
+    margin-left: 6%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    vertical-align: middle;
+}

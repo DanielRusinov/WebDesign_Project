@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GameWorld.BG</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="./javascript.js"></script>
+</head>
+<body class="bg">
+	<header>
+		<ul>
+		  <li><a class="active" href="./homepage.html">Начало</a></li>
+		  <li><a href="./games.html">Игри</a></li>
+		  <li><a href="./consoles.html">Конзоли</a></li>
+		  <li><a href="./accessories.html">Аксесоари</a></li>
+		  <li><a href="./others.html">Други</a></li>
+		  <li style="float:left"><a href="./contacts.html">Contact us</a></li>
+		</ul>
+	</header>
+
+	<br><div>
+		<img id="image" src="./homepage/logo.png" width="150" height="150">
+		<span id="quote">Welcome to the magical world of games!</span>
+	</div>
+
+	<div id="video" style="display: none">
+		<iframe width="700" height="480" 
+		src="https://www.vbox7.com/emb/external.php?vid=4910cbb058" 
+		frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<div style="margin-top: 21%;">
+		<button id="button" onclick="toggle()">Video</button>
+		<button id="button2" onclick="location.href = './games.html' ">Go shopping!</button>
+	</div>
+
+	<footer style="position: fixed; bottom: 0; width: 100%">
+		<div style="background-color:black; padding: 10px" align="center">		
+			<div id="footer">Copyright © 2018 Daniel Rusinov inc.™</div>
+		</div>
+	</footer>
+</html>
