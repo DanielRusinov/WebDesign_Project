@@ -49,8 +49,10 @@ td
     src: url(NewRocker-Regular.otf);
 }
 
-#footer
+#footer_text
 {
+	background-color: black; 
+	padding: 10px; 
     color: white;
     font-weight: bold;
 	font-size: 24px;
